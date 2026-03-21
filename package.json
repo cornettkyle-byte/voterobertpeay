@@ -1,0 +1,13 @@
+{
+  "name": "vote-robert-peay",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./assets/tailwind.css --minify",
+    "build": "npm run build:css",
+    "dev": "npm run build:css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
