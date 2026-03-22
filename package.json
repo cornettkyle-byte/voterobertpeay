@@ -5,7 +5,9 @@
   "scripts": {
     "build:css": "tailwindcss -i ./src/input.css -o ./assets/tailwind.css --minify",
     "build": "npm run build:css",
-    "dev": "npm run build:css"
+    "dev": "npm run build:css",
+    "test": "node --test tests/**/*.test.js",
+    "test:watch": "node --test --watch tests/**/*.test.js"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.13"
