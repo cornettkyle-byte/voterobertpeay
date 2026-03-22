@@ -31,6 +31,10 @@
         background-size: cover;
         background-position: center;
       }
+
+      .patriotic-bg-bottom {
+        background-position: left 82%;
+      }
     </style>
   </head>
   <body class="bg-white text-brick antialiased">
@@ -44,11 +48,10 @@
       <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6 sm:py-5">
         <div class="text-lg font-semibold tracking-wide">Vote Robert Peay</div>
         <nav class="hidden space-x-6 text-sm font-medium md:block" aria-label="Primary">
-          <a href="#record" class="hover:text-gold">The Record</a>
-          <a href="#vision" class="hover:text-gold">Vision</a>
           <a href="#about" class="hover:text-gold">About</a>
           <a href="#district" class="hover:text-gold">District 4</a>
-          <a href="#endorsements" class="hover:text-gold">Endorsements</a>
+          <a href="#vision" class="hover:text-gold">Vision</a>
+          <a href="#voting" class="hover:text-gold">Voting</a>
           <a href="#contact" class="hover:text-gold">Contact</a>
         </nav>
       </div>
@@ -59,9 +62,8 @@
         <div class="flex gap-2 overflow-x-auto whitespace-nowrap pb-1">
           <a href="#about" class="rounded-full border border-white/40 px-3 py-1.5">About</a>
           <a href="#district" class="rounded-full border border-white/40 px-3 py-1.5">District 4</a>
-          <a href="#endorsements" class="rounded-full border border-white/40 px-3 py-1.5">Committees</a>
           <a href="#vision" class="rounded-full border border-white/40 px-3 py-1.5">Goals</a>
-          <a href="#record" class="rounded-full border border-white/40 px-3 py-1.5">Accomplishments</a>
+          <a href="#voting" class="rounded-full border border-white/40 px-3 py-1.5">Voting</a>
           <a href="#contact" class="rounded-full border border-white/40 px-3 py-1.5">Contact</a>
         </div>
       </nav>
@@ -128,7 +130,7 @@
       </section>
 
       <section id="vision" class="bg-slate-50">
-        <div class="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
+        <div class="mx-auto max-w-4xl px-4 pt-12 pb-6 sm:px-6 sm:pt-16 sm:pb-8">
           <p class="text-sm font-semibold uppercase tracking-[0.2em] text-brick">Goals</p>
           <div class="mt-8 space-y-8 text-navy/90">
             <div>
@@ -165,7 +167,7 @@
       </section>
 
       <section id="record" class="bg-slate-50">
-        <div class="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
+        <div class="mx-auto max-w-4xl px-4 pt-6 pb-12 sm:px-6 sm:pt-8 sm:pb-16">
           <h2 class="text-2xl font-bold text-navy sm:text-3xl">Accomplishments</h2>
           <p class="mt-4 text-base leading-7 text-navy/90">
             I have accomplished nothing without the support of my constituents. Below you will find a list of a few highlights that I have been glad to help with over the years serving as commissioner.
@@ -223,11 +225,17 @@
         </div>
       </section>
 
-      <section class="bg-white">
+      <section id="voting" class="bg-white">
         <div class="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
           <h2 class="text-2xl font-bold text-navy sm:text-3xl">Voting</h2>
           <p class="mt-4 text-base leading-7 text-navy/90">
-            Thank you for considering me when you make the important choice of who to vote for to represent District 4. You can now vote at any polling location in the county on election day with your state or federal government issued identification. See this website for polling location options. Locations in/near our district include Sports Com, Kittrell Elementary, Lascassas Elementary, and North Boulevard Church of Christ. Early Voting sites include Sports Com, which is open for voting M-F 10-6 and Saturday 8-12. *Check voting dates info here for mail-in voting dates, etc.
+            Thank you for considering me when you make the important choice of who to vote for to represent District 4. You can now vote at any polling location in the county on election day with your state or federal government issued identification. See
+            <a href="https://rutherfordcountytn.gov/voting-centers" target="_blank" rel="noopener noreferrer" class="font-semibold underline">This Website</a>
+            for polling location options. Locations in/near our district include Sports Com, Kittrell Elementary, Lascassas Elementary, and North Boulevard Church of Christ.
+            <a href="https://rutherfordcountytn.gov/early-voting" target="_blank" rel="noopener noreferrer" class="font-semibold underline">Early Voting Sites</a>
+            include Sports Com, which is open for voting M-F 10-6 and Saturday 8-12. *Check
+            <a href="https://rutherfordcountytn.gov/vertical/sites/%7B0DE57B3C-95FA-46CF-BF78-CE4E5703EB9C%7D/uploads/Voters_schedule_2026.pdf" target="_blank" rel="noopener noreferrer" class="font-semibold underline">voting dates info</a>
+            for mail-in voting dates, etc.
           </p>
 
           <h3 class="mt-8 text-xl font-bold text-navy sm:text-2xl">Need to Know Dates</h3>
@@ -240,26 +248,31 @@
         </div>
       </section>
 
-      <section id="contact" class="patriotic-bg text-white">
+      <section id="contact" class="patriotic-bg patriotic-bg-bottom text-white">
         <div class="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
-          <h2 class="text-2xl font-bold sm:text-3xl">Contact</h2>
-          <p class="mt-4 text-base text-white/95">
+          <h2 class="text-3xl font-bold sm:text-4xl">Contact</h2>
+          <p class="mt-4 text-lg text-white/95 sm:text-xl">
             I need to hear from you to best represent you. Contact me with ways I can help!
           </p>
-          <div class="mt-6 space-y-2 text-base text-white/95">
+          <div class="mt-6 space-y-2 text-lg text-white/95 sm:text-xl">
             <p>Home: <a href="tel:615-409-6808" class="font-semibold text-gold">615-409-6808</a></p>
             <p>Cell (call or text): <a href="tel:615-603-5038" class="font-semibold text-gold">615-603-5038</a></p>
             <p>Email: <a href="mailto:rpeay45390@aol.com" class="font-semibold text-gold">rpeay45390@aol.com</a></p>
-            <p>Facebook: Robert Peay for County Commission</p>
+            <p>
+              Facebook:
+              <a href="https://www.facebook.com/RobertWPeay" target="_blank" rel="noopener noreferrer" class="font-semibold underline">
+                Robert Peay for Commission
+              </a>
+            </p>
           </div>
         </div>
       </section>
     </main>
 
-    <footer class="patriotic-bg text-white">
+    <footer class="patriotic-bg patriotic-bg-bottom text-white">
       <div class="mx-auto max-w-6xl px-4 py-8 text-sm sm:px-6">
         <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
-          <p>Paid for by Friends of Robert Peay, County Commission District 4.</p>
+          <p>Paid for by Friends of Robert Peay.</p>
           <p class="text-white/70">© 2026 Vote Robert Peay</p>
         </div>
       </div>
