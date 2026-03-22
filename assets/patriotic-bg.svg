@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Patriotic red white and blue background">
+  <defs>
+    <linearGradient id="fade" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.12"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="#b22234"/>
+
+  <g fill="#ffffff">
+    <rect y="69" width="1600" height="69"/>
+    <rect y="207" width="1600" height="69"/>
+    <rect y="345" width="1600" height="69"/>
+    <rect y="483" width="1600" height="69"/>
+    <rect y="621" width="1600" height="69"/>
+    <rect y="759" width="1600" height="69"/>
+  </g>
+
+  <rect width="720" height="483" fill="#1e3a8a"/>
+
+  <g fill="#ffffff" font-family="Segoe UI Symbol, Arial Unicode MS, sans-serif" font-size="16" font-weight="700" text-anchor="middle" dominant-baseline="middle" opacity="0.96">
+    <text x="60" y="48">★</text><text x="120" y="48">★</text><text x="180" y="48">★</text><text x="240" y="48">★</text><text x="300" y="48">★</text><text x="360" y="48">★</text><text x="420" y="48">★</text><text x="480" y="48">★</text><text x="540" y="48">★</text><text x="600" y="48">★</text><text x="660" y="48">★</text>
+    <text x="90" y="96">★</text><text x="150" y="96">★</text><text x="210" y="96">★</text><text x="270" y="96">★</text><text x="330" y="96">★</text><text x="390" y="96">★</text><text x="450" y="96">★</text><text x="510" y="96">★</text><text x="570" y="96">★</text><text x="630" y="96">★</text>
+    <text x="60" y="144">★</text><text x="120" y="144">★</text><text x="180" y="144">★</text><text x="240" y="144">★</text><text x="300" y="144">★</text><text x="360" y="144">★</text><text x="420" y="144">★</text><text x="480" y="144">★</text><text x="540" y="144">★</text><text x="600" y="144">★</text><text x="660" y="144">★</text>
+    <text x="90" y="192">★</text><text x="150" y="192">★</text><text x="210" y="192">★</text><text x="270" y="192">★</text><text x="330" y="192">★</text><text x="390" y="192">★</text><text x="450" y="192">★</text><text x="510" y="192">★</text><text x="570" y="192">★</text><text x="630" y="192">★</text>
+    <text x="60" y="240">★</text><text x="120" y="240">★</text><text x="180" y="240">★</text><text x="240" y="240">★</text><text x="300" y="240">★</text><text x="360" y="240">★</text><text x="420" y="240">★</text><text x="480" y="240">★</text><text x="540" y="240">★</text><text x="600" y="240">★</text><text x="660" y="240">★</text>
+    <text x="90" y="288">★</text><text x="150" y="288">★</text><text x="210" y="288">★</text><text x="270" y="288">★</text><text x="330" y="288">★</text><text x="390" y="288">★</text><text x="450" y="288">★</text><text x="510" y="288">★</text><text x="570" y="288">★</text><text x="630" y="288">★</text>
+    <text x="60" y="336">★</text><text x="120" y="336">★</text><text x="180" y="336">★</text><text x="240" y="336">★</text><text x="300" y="336">★</text><text x="360" y="336">★</text><text x="420" y="336">★</text><text x="480" y="336">★</text><text x="540" y="336">★</text><text x="600" y="336">★</text><text x="660" y="336">★</text>
+    <text x="90" y="384">★</text><text x="150" y="384">★</text><text x="210" y="384">★</text><text x="270" y="384">★</text><text x="330" y="384">★</text><text x="390" y="384">★</text><text x="450" y="384">★</text><text x="510" y="384">★</text><text x="570" y="384">★</text><text x="630" y="384">★</text>
+    <text x="60" y="432">★</text><text x="120" y="432">★</text><text x="180" y="432">★</text><text x="240" y="432">★</text><text x="300" y="432">★</text><text x="360" y="432">★</text><text x="420" y="432">★</text><text x="480" y="432">★</text><text x="540" y="432">★</text><text x="600" y="432">★</text><text x="660" y="432">★</text>
+  </g>
+
+  <rect width="1600" height="900" fill="url(#fade)"/>
+</svg>
